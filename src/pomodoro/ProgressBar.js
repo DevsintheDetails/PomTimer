@@ -6,7 +6,7 @@ function ProgressBar({ percentTime }) {
             <div
             className="progress-bar progress-bar-striped"
             role="progressbar"
-            aria-aria-valuemin="0"
+            aria-valuemin="0"
             aria-valuemax="100"
             aria-valuenow={percentTime}
             style={{ width: percentTime + "%" }}
